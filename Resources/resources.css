@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5vh;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        #d8424e,
+        #e98955
+    ) 0 100% no-repeat;
+    background-size: 100% 100%;
+}
+
+.resource-container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    background-color: #604010;
+    box-shadow: 0 15px 35px rgba(50,50,50,0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.resource {
+    border: black;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    
+}
+
+.wood {
+    background-color: #307e30;
+}
+
+.brick {
+    background-color: #99441f;
+}
+
+.ore {
+    background-color: #465c72;
+}
+
+.wheat {
+    background-color: #faf207;
+}
+
+.sheep {
+    background-color: #29f529;
+}
+
+.desert {
+    background-color: #fae0c0;
+}
+
+.frequency {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    /* Dot positioning */
+    display: flex;
+    flex-direction: column;
+}
+
