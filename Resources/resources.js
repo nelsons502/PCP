@@ -42,7 +42,7 @@ function populateResources() {
     resourceContainer.innerHTML = "";
     Object.keys(boardResourceCount).forEach((key) => {
         for (let i=0;i<boardResourceCount[key];i++) {
-            let res = document.createElement("div");
+            let res = document.createElement("li");
             // set class based on the key
             res.classList.add("resource");
             res.classList.add(key);
